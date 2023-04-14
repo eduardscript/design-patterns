@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{18A8A494-6CE4-4021-AFCB-B9D09516D1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Structural\Decorator\CorrectDecorator\Decorator.csproj", "{C7C0341C-7958-4BD1-9EEC-093634E21233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{FDD101B5-8C03-42D5-BABF-231656CB6782}"
+	ProjectSection(SolutionItems) = preProject
+		Structural\Decorator\scratch.md = Structural\Decorator\scratch.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrongDecorator", "Structural\Decorator\WrongDecorator\WrongDecorator.csproj", "{43C562F1-2474-4C93-9E54-CE92109BCDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldExample", "Structural\Decorator\RealWorldExample\RealWorldExample.csproj", "{EC6C34FA-A0AF-4190-83DE-21A880773036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{EE01D734-00B0-4473-8C0A-08B2AD37D78C}"
+	ProjectSection(SolutionItems) = preProject
+		Structural\Facade\index.md = Structural\Facade\index.md
+		Structural\Facade\facade.png = Structural\Facade\facade.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrongFacade", "Structural\Facade\WrongFacade\WrongFacade.csproj", "{18F89019-0761-4189-8EDA-A6D423C8D45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade\Facade\Facade.csproj", "{59A8E00F-F5DC-4DA3-8707-03F231E5CDA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C0341C-7958-4BD1-9EEC-093634E21233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C0341C-7958-4BD1-9EEC-093634E21233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C0341C-7958-4BD1-9EEC-093634E21233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C0341C-7958-4BD1-9EEC-093634E21233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C562F1-2474-4C93-9E54-CE92109BCDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C562F1-2474-4C93-9E54-CE92109BCDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C562F1-2474-4C93-9E54-CE92109BCDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C562F1-2474-4C93-9E54-CE92109BCDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6C34FA-A0AF-4190-83DE-21A880773036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6C34FA-A0AF-4190-83DE-21A880773036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6C34FA-A0AF-4190-83DE-21A880773036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6C34FA-A0AF-4190-83DE-21A880773036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F89019-0761-4189-8EDA-A6D423C8D45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F89019-0761-4189-8EDA-A6D423C8D45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F89019-0761-4189-8EDA-A6D423C8D45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F89019-0761-4189-8EDA-A6D423C8D45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A8E00F-F5DC-4DA3-8707-03F231E5CDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A8E00F-F5DC-4DA3-8707-03F231E5CDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A8E00F-F5DC-4DA3-8707-03F231E5CDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A8E00F-F5DC-4DA3-8707-03F231E5CDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDD101B5-8C03-42D5-BABF-231656CB6782} = {18A8A494-6CE4-4021-AFCB-B9D09516D1FA}
+		{C7C0341C-7958-4BD1-9EEC-093634E21233} = {FDD101B5-8C03-42D5-BABF-231656CB6782}
+		{43C562F1-2474-4C93-9E54-CE92109BCDF9} = {FDD101B5-8C03-42D5-BABF-231656CB6782}
+		{EC6C34FA-A0AF-4190-83DE-21A880773036} = {FDD101B5-8C03-42D5-BABF-231656CB6782}
+		{EE01D734-00B0-4473-8C0A-08B2AD37D78C} = {18A8A494-6CE4-4021-AFCB-B9D09516D1FA}
+		{18F89019-0761-4189-8EDA-A6D423C8D45F} = {EE01D734-00B0-4473-8C0A-08B2AD37D78C}
+		{59A8E00F-F5DC-4DA3-8707-03F231E5CDA9} = {EE01D734-00B0-4473-8C0A-08B2AD37D78C}
+	EndGlobalSection
+EndGlobal
